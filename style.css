@@ -1,0 +1,64 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fbc2eb, #a18cd1); /* Fondo suave de degradado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    overflow: hidden;
+}
+
+.carta-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    margin: 20px;
+}
+
+.carta-header {
+    font-size: 3rem;
+    color: #ff6b81;
+    margin-bottom: 25px;
+}
+
+.carta-body {
+    text-align: left;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.carta-text {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.heart-button {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #ff6b81;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 5px 15px rgba(255, 107, 129, 0.5);
+}
+
+.heart-button:hover {
+    background-color: #ff4757;
+    transform: scale(1.05);
+    box-shadow: 0 5px 25px rgba(255, 71, 87, 0.8);
+}
